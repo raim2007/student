@@ -1,6 +1,4 @@
-def find_student(name):
-    students = ["Нурислам", "Али", "Данияр"]
-    if name in students:
-        print(f"Студент {name} найден!")
-    else:
-        print(f"Студент {name} не найден.")
+def add_student(student_name, students_list):
+    students_list.append(student_name)
+    print(f"Студент {student_name} успешно добавлен!")
+    return students_list
