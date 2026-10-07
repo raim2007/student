@@ -1,9 +1,6 @@
-def show_students():
+def find_student(name):
     students = ["Нурислам", "Али", "Данияр"]
-    print("Список студентов:")
-    for student in students:
-        print(student)
-
-if __name__ == "__main__":
-    show_students() 
-    
+    if name in students:
+        print(f"Студент {name} найден!")
+    else:
+        print(f"Студент {name} не найден.")
