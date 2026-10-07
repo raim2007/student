@@ -1,10 +1,7 @@
-# main.py
-students = ["Алексей", "Дильназ", "Максим", "Айгерим"]
+students = ["Нурислам", "Али", "Данияр"]
 
-def print_students():
-    print("Список студентов:")
-    for student in students:
-        print(f"- {student}")
+print("Список студентов:")
+for student in students:
+    print(student)
 
-if __name__ == "__main__":
-    print_students()
+    
